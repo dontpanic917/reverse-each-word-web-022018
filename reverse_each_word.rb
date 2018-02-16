@@ -7,3 +7,4 @@ def reverse_each_word(string)
   array.each {|wordarray| reverse << wordarray.reverse}
   return reverse.join(" ")
 end
+
