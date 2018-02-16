@@ -1,4 +1,4 @@
 def reverse_each_word(string)
-  word=[""]
+  word=[]
   string.each_char { |chr| if chr == " " }
   
