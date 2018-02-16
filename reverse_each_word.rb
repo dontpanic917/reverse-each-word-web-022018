@@ -1,4 +1,6 @@
 def reverse_each_word(string)
+  position=0
+  spaces=[]
   word=[]
-  string.each_char { |chr| if chr == " " }
-  
+  wordnum=1
+  string.each_char { |chr| chr=" " ? spaces << position; :}
